@@ -243,6 +243,13 @@
 
   <footer>
     &copy; 2025 FIBRANET.COM - Todos os direitos reservados
+
+       <div style="position: relative; margin-top: 1rem; font-size: 10px; color: #ccc; text-align: right;">
+      <span style="font-size: 14px; font-weight: bold;">Criado por:</span>
+      <a href="https://www.instagram.com/websolucoes_oficial/" target="_blank">
+        <img src="https://imgur.com/xlGpJC7.png" alt="Web Soluções" style="height: 30px; vertical-align: middle; margin-left: 5px;">
+      </a>
+    </div>
   </footer>
 
 <script>
@@ -264,23 +271,23 @@
     const plano = document.querySelector('input[name="plano"]:checked').value;
 
     const mensagem = 
-`📝 NOVO CADASTRO - FIBRANET.COM
+`NOVO CADASTRO - FIBRANET.COM
 
 ━━━━━━━━━━━━━━━━━━━━━━
-👤 Nome: ${nome}
-🆔 CPF: ${cpf}
-🪪 RG: ${rg}
-📞 Telefone: ${telefone}
-📧 E-mail: ${email}
-🏠 Endereço: ${endereco}
-🏡 Casa: ${casa}
-🎂 Nascimento: ${nascimento}
-📶 Nome da Rede: ${rede}
-🔑 Senha: ${senha}
-💳 Pagamento: ${pagamento}
-🌐 Plano Escolhido: ${plano}
+Nome: ${nome}
+CPF: ${cpf}
+RG: ${rg}
+Telefone: ${telefone}
+E-mail: ${email}
+Endereço: ${endereco}
+Casa: ${casa}
+Nascimento: ${nascimento}
+Nome da Rede: ${rede}
+Senha: ${senha}
+Pagamento: ${pagamento}
+Plano Escolhido: ${plano}
 ━━━━━━━━━━━━━━━━━━━━━━
-🕐 Data do Envio: ${new Date().toLocaleString("pt-BR")}`;
+Data do Envio: ${new Date().toLocaleString("pt-BR")}`;
 
     const url = `https://wa.me/5587981401709?text=${encodeURIComponent(mensagem)}`;
     window.open(url, "_blank");
@@ -288,3 +295,4 @@
 </script>
 </body>
 </html>
+
